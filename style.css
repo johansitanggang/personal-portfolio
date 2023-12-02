@@ -1,0 +1,35 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+  position: relative;
+  height: 100vh;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* Media Query ketika di mobile */
+@media (max-width: 575.98px) {
+  section .rounded-circle {
+    box-shadow: 0px -20px 32px 0px rgba(255, 149, 5, 0.3);
+  }
+
+  #profile-link {
+    width: 85%;
+  }
+
+  .navbar {
+    background-color: #000 !important;
+  }
+}
+
+.wave-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
